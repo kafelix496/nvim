@@ -46,6 +46,13 @@ set ai " Auto Indent
 set si " Smart Indent
 "set autochdir " Your working directory will always be the same as your working directory
 
+set autoread " Auto read when a file is changed from the outside
+au FocusGained,BufEnter * checktime " Auto read when a file is changed from the outside
+
+filetype plugin on " Enable filetype plugins
+
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Disable automatic comment insertion
+
 au! BufWritePost $MYVIMRC source % " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 nmap gb <C-^>
