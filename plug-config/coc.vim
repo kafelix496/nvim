@@ -38,5 +38,6 @@ endif
 map <silent> gd <Plug>(coc-definition)
 map <silent> gr <Plug>(coc-references)
 map <silent> gh :call <SID>show_documentation()<CR>
-nmap <Leader>prw :CocSearch <C-R>=expand("<cword>")<CR><CR>
+nmap <Leader>ps :CocSearch<Space>
+nmap <Leader>pws :CocSearch <C-R>=expand("<cword>")<CR><CR>
 
