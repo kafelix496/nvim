@@ -4,5 +4,5 @@ let g:floaterm_height=0.8
 let g:floaterm_wintitle=0
 let g:floaterm_autoclose=2
 
-nnoremap <silent> <F1> :FloatermNew lazygit<CR>
+map <C-g> :FloatermNew lazygit<CR>
 
