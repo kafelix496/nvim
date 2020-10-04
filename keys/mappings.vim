@@ -8,6 +8,10 @@ nnoremap <M-k> :resize +2<CR>
 nnoremap <M-h> :vertical resize -2<CR>
 nnoremap <M-l> :vertical resize +2<CR>
 
+" Fast vertical move
+nnoremap <C-d> 30j
+nnoremap <C-u> 30k
+
 " TAB in general mode will move to text buffer
 " nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
