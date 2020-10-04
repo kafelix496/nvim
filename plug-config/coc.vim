@@ -35,6 +35,8 @@ else
   inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
 
+let g:coc_snippet_next = '<tab>'
+
 map <silent> gd <Plug>(coc-definition)
 map <silent> gr <Plug>(coc-references)
 map <silent> gh :call <SID>show_documentation()<CR>
