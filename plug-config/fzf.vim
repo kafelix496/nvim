@@ -14,7 +14,7 @@ let g:fzf_buffers_jump = 1
 map <C-p> :Files<CR>
 map <C-f> :BLines<CR>
 " map <Leader>b :Buffers<CR>
-nnoremap <Leader>rg :Rg<CR>
+nnoremap <Leader>rg :Rg<Space>
 " nnoremap <Leader>t :Tags<CR>
 " nnoremap <Leader>m :Marks<CR>
 
