@@ -25,6 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'airblade/vim-gitgutter'
   Plug 'yggdroot/indentline'
   Plug 'svermeulen/vim-subversive'
+  Plug 'https://github.com/vim-scripts/ReplaceWithRegister.git'
   Plug 'easymotion/vim-easymotion'
   Plug 'voldikss/vim-floaterm'
   Plug 'jez/vim-superman'
