@@ -8,6 +8,7 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'machakann/vim-highlightedyank'
+  Plug 'nelstrom/vim-visual-star-search'
   Plug 'unblevable/quick-scope'
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
