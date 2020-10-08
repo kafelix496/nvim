@@ -20,6 +20,12 @@ nnoremap <C-u> 30k
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
+" Replace
+nnoremap <Leader>rp :%s///g<Left><Left>
+nnoremap <Leader>rc :%s///gc<Left><Left><Left>
+xnoremap <Leader>rp :%s///g<Left><Left>
+xnoremap <Leader>rc :%s///gc<Left><Left><Left>
+
 " Better tabbing
 vnoremap < <gv
 vnoremap > >gv
