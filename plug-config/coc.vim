@@ -40,6 +40,4 @@ let g:coc_snippet_next = '<tab>'
 map <silent> gd <Plug>(coc-definition)
 map <silent> gr <Plug>(coc-references)
 map <silent> gh :call <SID>show_documentation()<CR>
-nmap <Leader>ps :CocSearch<Space>
-nmap <Leader>pws :CocSearch <C-R>=expand("<cword>")<CR><CR>
 
