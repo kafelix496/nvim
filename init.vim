@@ -11,10 +11,10 @@ if !exists('g:vscode')
   source $HOME/.config/nvim/plug-config/bookmark.vim
   source $HOME/.config/nvim/plug-config/floaterm.vim
   source $HOME/.config/nvim/plug-config/undotree.vim
-  source $HOME/.config/nvim/plug-config/ctrlsf.vim
   source $HOME/.config/nvim/plug-config/airline.vim
   source $HOME/.config/nvim/plug-config/fzf.vim
   source $HOME/.config/nvim/plug-config/coc.vim
+  source $HOME/.config/nvim/plug-config/far.vim
 endif
 
 source $HOME/.config/nvim/plug-config/highlightedyank.vim

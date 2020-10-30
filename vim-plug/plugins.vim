@@ -7,7 +7,7 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'dyng/ctrlsf.vim'
+  Plug 'brooth/far.vim'
   Plug 'machakann/vim-highlightedyank'
   Plug 'nelstrom/vim-visual-star-search'
   Plug 'unblevable/quick-scope'
