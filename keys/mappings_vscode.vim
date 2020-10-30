@@ -31,4 +31,10 @@ nnoremap <leader>6 :call VSCodeNotify('workbench.action.openEditorAtIndex7')<CR>
 nnoremap <leader>8 :call VSCodeNotify('workbench.action.openEditorAtIndex8')<CR>
 nnoremap <leader>9 :call VSCodeNotify('workbench.action.openEditorAtIndex9')<CR>
 
+xmap gc  <Plug>VSCodeCommentary
+nmap gc  <Plug>VSCodeCommentary
+omap gc  <Plug>VSCodeCommentary
+nmap gcc <Plug>VSCodeCommentaryLine
+
 nnoremap <leader><CR> :noh<CR>
+
