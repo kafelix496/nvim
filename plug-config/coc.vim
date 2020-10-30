@@ -5,6 +5,7 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-json',
   \ 'coc-lists',
+  \ 'coc-explorer'
   \ ]
 
 function! s:show_documentation()
@@ -41,3 +42,5 @@ map <silent> gd <Plug>(coc-definition)
 map <silent> gr <Plug>(coc-references)
 map <silent> gh :call <SID>show_documentation()<CR>
 
+nmap <leader>e :CocCommand explorer<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif

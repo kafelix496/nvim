@@ -17,8 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'MattesGroeger/vim-bookmarks'
   Plug 'sickill/vim-monokai'
   Plug 'tpope/vim-surround'
-  Plug 'scrooloose/nerdtree'
-  Plug 'xuyuanp/nerdtree-git-plugin'
   Plug 'ryanoasis/vim-devicons'
   Plug 'vim-airline/vim-airline'
   Plug 'tpope/vim-commentary'

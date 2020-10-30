@@ -10,7 +10,6 @@ endif
 if !exists('g:vscode')
   source $HOME/.config/nvim/plug-config/bookmark.vim
   source $HOME/.config/nvim/plug-config/floaterm.vim
-  source $HOME/.config/nvim/plug-config/nerdtree.vim
   source $HOME/.config/nvim/plug-config/undotree.vim
   source $HOME/.config/nvim/plug-config/ctrlsf.vim
   source $HOME/.config/nvim/plug-config/airline.vim
