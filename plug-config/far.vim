@@ -3,6 +3,8 @@ let g:far#source='rg'
 let g:far#ignore_files='node_modules'
 let g:far#file_mask_favorites=['%', '**/*.*', '**/*.html', '**/*.js', '**/*.css']
 let g:far#mode_open={ "regex": 0, "case_sensitive": 1, "word": 1, "substitute": 0 }
+let g:far#window_layout='tab'
+let g:far#preview_window_height=20
 
 " shortcut for far.vim find
 nnoremap <silent> <leader>ff :Farf<CR>
