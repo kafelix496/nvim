@@ -42,5 +42,5 @@ map <silent> gd <Plug>(coc-definition)
 map <silent> gr <Plug>(coc-references)
 map <silent> gh :call <SID>show_documentation()<CR>
 
-nmap <leader>e :CocCommand explorer<CR>
+nmap <C-e> :CocCommand explorer<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif

@@ -3,7 +3,7 @@
     "UltiSnips",
     "~/.config/nvim/snippets"
   ],
-  "explorer.width": 50,
+  "explorer.position": "floating",
   "explorer.file.autoReveal": false,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
