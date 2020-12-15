@@ -16,6 +16,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'MattesGroeger/vim-bookmarks'
   Plug 'evanleck/vim-svelte', {'branch': 'main'}
+  Plug 'heavenshell/vim-jsdoc', {
+    \ 'for': ['javascript', 'javascript.jsx','typescript'],
+    \ 'do': 'make install'
+  \}
   Plug 'yuezk/vim-js'
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'crusoexia/vim-monokai'
