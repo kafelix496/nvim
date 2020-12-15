@@ -9,6 +9,7 @@
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
     "o": ["expanded?", "collapse", "expand"]
-  }
+  },
+  "typescript.validate.enable": false
 }
 
