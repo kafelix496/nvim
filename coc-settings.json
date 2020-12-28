@@ -11,5 +11,9 @@
     "o": ["expanded?", "collapse", "expand"]
   },
   "typescript.validate.enable": false
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "typescript", "typescriptreact", "css", "markdown"],
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 90,
+  "prettier.trailingComma": "none"
 }
-

@@ -4,10 +4,16 @@ let g:coc_global_extensions = [
   \ 'coc-pairs',
   \ 'coc-tsserver',
   \ 'coc-eslint',
+  \ 'coc-prettier',
   \ 'coc-json',
   \ 'coc-lists',
   \ 'coc-explorer'
   \ ]
+
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+" vmap <leader>f <Plug>(coc-format-selected)
+" nmap <leader>f <Plug>(coc-format-selected)
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
