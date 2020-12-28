@@ -22,6 +22,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'evanleck/vim-svelte', {'branch': 'main'}
   Plug 'yuezk/vim-js'
   Plug 'maxmellon/vim-jsx-pretty'
+  Plug 'leafgarland/typescript-vim'
   Plug 'crusoexia/vim-monokai'
   Plug 'tpope/vim-surround'
   Plug 'ryanoasis/vim-devicons'
