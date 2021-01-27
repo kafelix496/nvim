@@ -20,6 +20,11 @@ nnoremap <C-u> 30k
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
+" console log
+imap cnsll console.log('', )<Esc>==f'a
+vmap <leader>cl yocnsll<Esc>p$T,p$
+nmap <leader>cl yiwocnsll<Esc>p$T,p$
+
 " Replace
 nnoremap <Leader>rp :%s///g<Left><Left>
 nnoremap <Leader>rc :%s///gc<Left><Left><Left>
