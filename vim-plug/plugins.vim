@@ -14,6 +14,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
+  Plug 'mattn/emmet-vim'
   Plug 'MattesGroeger/vim-bookmarks'
   Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
   Plug 'heavenshell/vim-jsdoc', {
