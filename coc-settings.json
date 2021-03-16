@@ -14,5 +14,6 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.printWidth": 90,
-  "prettier.trailingComma": "none"
+  "prettier.trailingComma": "none",
+  "git.addGBlameToVirtualText": true
 }
