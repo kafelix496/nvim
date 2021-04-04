@@ -6,7 +6,7 @@ Please check the official website https://github.com/neovim/neovim
 ### Where to clone this project
 - If you are using 'MacOS' or 'Linux', Please use the following command
 ```zsh
-git clone https://github.com/kafelix496/nvim.git ~/.config/
+git clone https://github.com/kafelix496/nvim.git ~/.config/nvim/
 ```
 - If you are using 'Windows', **Please change your computer**. :zipper_mouth_face: ( I'm sorry but I don't know about 'Windows' )
 
