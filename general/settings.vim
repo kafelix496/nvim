@@ -1,6 +1,7 @@
 " set leader key
 let g:mapleader = ","
 
+set regexpengine=1 " Use old regexp engine
 syntax enable " Enables syntax highlighing
 set belloff=all
 set number relativenumber " Show number & relative number
@@ -49,7 +50,7 @@ set si " Smart Indent
 set autoread " Auto read when a file is changed from the outside
 au FocusGained,BufEnter * checktime " Auto read when a file is changed from the outside
 
-filetype plugin on " Enable filetype plugins
+filetype plugin indent on
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Disable automatic comment insertion
 
