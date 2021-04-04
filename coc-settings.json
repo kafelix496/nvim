@@ -8,7 +8,9 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
-    "o": ["expanded?", "collapse", "expand"]
+    "o": ["expanded?", "collapse", "expand"],
+    "h": "open:split",
+    "v": "open:vsplit"
   },
   "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "typescript", "typescriptreact", "css", "markdown"],
   "prettier.semi": false,
