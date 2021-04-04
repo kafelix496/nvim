@@ -40,7 +40,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
   Plug 'honza/vim-snippets'
   Plug 'mattn/emmet-vim'
-  Plug 'ChristianChiarulli/far.vim'
   Plug 'AndrewRadev/tagalong.vim'
   Plug 'psliwka/vim-smoothie'
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
