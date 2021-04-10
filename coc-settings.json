@@ -12,7 +12,7 @@
     "h": "open:split",
     "v": "open:vsplit"
   },
-  "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "typescript", "typescriptreact", "css", "markdown"],
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "typescript", "typescriptreact", "css", "scss", "markdown"],
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.printWidth": 90,
