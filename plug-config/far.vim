@@ -1,6 +1,6 @@
 let g:far#enable_undo=1
 let g:far#source='rg'
-let g:far#ignore_files='node_modules'
+" let g:far#ignore_files='node_modules'
 let g:far#file_mask_favorites=['%', '**/*.*', '**/*.html', '**/*.js', '**/*.css']
 let g:far#mode_open={ "regex": 0, "case_sensitive": 1, "word": 1, "substitute": 0 }
 let g:far#window_layout='tab'
