@@ -16,7 +16,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'mattn/emmet-vim'
   Plug 'MattesGroeger/vim-bookmarks'
-  Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
   Plug 'heavenshell/vim-jsdoc', {
     \ 'for': ['javascript', 'javascript.jsx','typescript'],
     \ 'do': 'make install'
