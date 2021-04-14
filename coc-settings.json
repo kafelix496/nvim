@@ -17,5 +17,9 @@
   "prettier.singleQuote": true,
   "prettier.printWidth": 90,
   "prettier.trailingComma": "none",
-  "git.addGBlameToVirtualText": true
+  "git.addGBlameToVirtualText": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  }
 }

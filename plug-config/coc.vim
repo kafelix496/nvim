@@ -7,7 +7,8 @@ let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-lists',
   \ 'coc-explorer',
-  \ 'coc-git'
+  \ 'coc-git',
+  \ 'coc-emmet',
   \ ]
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
