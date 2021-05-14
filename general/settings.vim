@@ -47,6 +47,8 @@ set ai " Auto Indent
 set si " Smart Indent
 "set autochdir " Your working directory will always be the same as your working directory
 
+hi Normal guibg=NONE ctermbg=NONE
+
 set autoread " Auto read when a file is changed from the outside
 au FocusGained,BufEnter * checktime " Auto read when a file is changed from the outside
 
