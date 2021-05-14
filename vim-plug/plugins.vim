@@ -6,6 +6,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+  Plug 'metakirby5/codi.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'ChristianChiarulli/far.vim'
   Plug 'machakann/vim-highlightedyank'
